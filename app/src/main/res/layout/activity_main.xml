@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/black"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:scaleType="fitStart"
+        android:src="@drawable/fker" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="370dp"
+        android:text="@string/text_placeholder"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="يا مرحبا في"
+        android:textColorHint="@color/white"
+        android:textSize="25sp"
+        android:layout_marginTop="140dp"
+        android:inputType="textMultiLine"/>
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:layout_marginTop="160dp"
+        android:progress="40"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="190dp"
+        android:hint="تطبيق فكر"
+        android:textColorHint="@color/white"
+        android:inputType="textMultiLine"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:layout_marginTop="210dp"
+        android:outlineSpotShadowColor="@color/white"
+        android:progress="40"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:hint="ماذا سنتعلم ؟"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/white"
+        android:textSize="25sp" />
+
+    <ProgressBar
+        style="?android:progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:indeterminate="false"
+        android:max="100"
+        android:layout_marginTop="322dp"
+        android:outlineSpotShadowColor="@color/white"
+        android:progress="40"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:hint="الدورات المقدمة :"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/white"
+        android:textSize="25sp" />
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="500dp">
+        <TableRow>
+            <TextView
+                android:layout_column="1"
+                android:text="•"
+                android:textColor="@color/white"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="1- Kotlin"
+                android:textColor="@color/white"
+                android:textSize="30dp"/>
+        </TableRow>
+
+        <TableRow android:layout_marginLeft="10dp">
+            <TextView
+                android:layout_column="1"
+                android:text="•"
+                android:textColor="@color/white"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_column="1"
+                android:text="2- Java"
+                android:textColor="@color/white"
+                android:textSize="30dp"/>
+        </TableRow>
+
+        <TableRow android:layout_marginLeft="30dp">
+            <TextView
+                android:layout_column="1"
+                android:text="•"
+                android:textColor="@color/white"
+                android:textSize="30dp"/>
+            <TextView
+                android:layout_column="2"
+                android:layout_width="wrap_content"
+                android:text="3- C#"
+                android:textColor="@color/white"
+                android:textSize="30dp"/>
+        </TableRow>
+    </TableLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="670dp"
+        android:hint="* تفاصيل العمل"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/purple_200"
+        android:textSize="25sp" />
+
+    <ImageView
+        android:layout_width="51dp"
+        android:layout_height="33dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="360dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginBottom="80dp"
+        app:srcCompat="@drawable/ic_shortcut_location_on" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="745dp"
+        android:hint="    جدة"
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/purple_200"
+        android:textSize="50sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="830dp"
+        android:hint="© كل الحقوق محفوظة ، فيصل "
+        android:inputType="textMultiLine"
+        android:textColorHint="@color/purple_200"
+        android:textSize="25sp" />
+
+</RelativeLayout>
